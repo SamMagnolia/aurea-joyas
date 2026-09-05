@@ -180,3 +180,18 @@ function initNewsletterForm(){
     form.reset();
   });
 }
+
+  const layer = document.getElementById('sparkleLayer');
+  const count = 18;
+  for(let i=0;i<count;i++){
+    const s = document.createElement('div');
+    s.className = 'spark';
+    const size = 3 + Math.random()*4;
+    s.style.width = size+'px';
+    s.style.height = size+'px';
+    s.style.left = Math.random()*100+'%';
+    s.style.animationDuration = (2.5 + Math.random()*3)+'s';
+    s.style.animationDelay = (Math.random()*5)+'s';
+    layer.appendChild(s);
+  }
+ 
