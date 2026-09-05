@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aurea Joyas — Pulseras, collares, anillos, relojes y charms</title>
+<meta name="description" content="Joyería fina en oro: pulseras, collares, anillos, relojes y charms hechos para acompañar cada historia.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="page-tint"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#inicio" class="brand">
+      <svg class="brand-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="24" r="6.5" fill="currentColor"/>
+        <g stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+          <line x1="24" y1="4" x2="24" y2="12"/>
+          <line x1="24" y1="36" x2="24" y2="44"/>
+          <line x1="4" y1="24" x2="12" y2="24"/>
+          <line x1="36" y1="24" x2="44" y2="24"/>
+          <line x1="10" y1="10" x2="15.5" y2="15.5"/>
+          <line x1="32.5" y1="32.5" x2="38" y2="38"/>
+          <line x1="38" y1="10" x2="32.5" y2="15.5"/>
+          <line x1="15.5" y1="32.5" x2="10" y2="38"/>
+        </g>
+      </svg>
+      <span class="brand-name">Aurea</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#pulseras" class="nav-link">Pulseras</a>
+      <a href="#collares" class="nav-link">Collares</a>
+      <a href="#anillos" class="nav-link">Anillos</a>
+      <a href="#relojes" class="nav-link">Relojes</a>
+      <a href="#charms" class="nav-link">Charms</a>
+      <a href="#contacto" class="nav-link nav-cta">Escríbenos</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <canvas class="hero-sparkles" id="sparkleCanvas" aria-hidden="true"></canvas>
+
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow-script">hecho para brillar todos los días</p>
+        <h1 class="hero-title">
+          Joyas de oro para<br>
+          <em>cada versión de ti</em>
+        </h1>
+        <p class="hero-text">
+          Pulseras, collares, anillos, relojes y charms pensados para quedarse.
+          Piezas ligeras, bañadas en oro, que combinan entre sí y con tu día a día.
+        </p>
+        <div class="hero-actions">
+          <a href="#colecciones" class="btn btn-gold">Ver colecciones</a>
+          <a href="#historia" class="btn btn-line">Nuestra historia</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-blob">
+          <img src="assets/img/hero-1.jpg" alt="Relojes y pulseras bañados en oro de Aurea Joyas">
+        </div>
+        <div class="hero-chip hero-chip--top">
+          <img src="assets/img/anillo-2.jpg" alt="Anillos dorados apilados">
+        </div>
+        <div class="hero-chip hero-chip--bottom">
+          <img src="assets/img/collar-1.jpg" alt="Collar con dije de corazón">
+        </div>
+      </div>
+    </div>
+
+    <a class="scroll-hint" href="#colecciones" aria-label="Bajar a colecciones">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ COLECCIONES (bubble nav) ============ -->
+  <section class="collections" id="colecciones">
+    <p class="section-kicker">explora</p>
+    <h2 class="section-title reveal">Cinco formas de brillar</h2>
+
+    <div class="bubble-row">
+      <a href="#pulseras" class="bubble">
+        <span class="bubble-img"><img src="assets/img/pulsera-1.jpg" alt="Pulseras"></span>
+        <span class="bubble-label">Pulseras</span>
+      </a>
+      <a href="#collares" class="bubble">
+        <span class="bubble-img"><img src="assets/img/collar-1.jpg" alt="Collares"></span>
+        <span class="bubble-label">Collares</span>
+      </a>
+      <a href="#anillos" class="bubble">
+        <span class="bubble-img"><img src="assets/img/anillo-1.jpg" alt="Anillos"></span>
+        <span class="bubble-label">Anillos</span>
+      </a>
+      <a href="#relojes" class="bubble">
+        <span class="bubble-img"><img src="assets/img/reloj-1.jpg" alt="Relojes"></span>
+        <span class="bubble-label">Relojes</span>
+      </a>
+      <a href="#charms" class="bubble">
+        <span class="bubble-img"><img src="assets/img/charm-1.jpg" alt="Charms"></span>
+        <span class="bubble-label">Charms</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ PULSERAS ============ -->
+  <section class="category" id="pulseras">
+    <div class="category-inner">
+      <div class="category-visual">
+        <div class="frame frame--main">
+          <img src="assets/img/pulsera-2.jpg" alt="Pulseras doradas apiladas sobre cojín">
+        </div>
+        <div class="frame frame--float">
+          <img src="assets/img/pulsera-3.jpg" alt="Pulseras de perlas y dorado">
+        </div>
+      </div>
+      <div class="category-copy">
+        <p class="section-kicker">01 pulseras</p>
+        <h3 class="category-title reveal">Para apilar, mezclar y no quitarte</h3>
+        <p class="category-text">
+          Cadenas finas, eslabones texturizados y detalles de circonias que se combinan
+          entre capas. Nuestras pulseras están pensadas para el uso diario: resisten el
+          agua y no pierden su color con el tiempo.
+        </p>
+        <ul class="category-points">
+          <li>Bañado en oro de alta durabilidad</li>
+          <li>Cierre ajustable, se adapta a tu muñeca</li>
+          <li>Ideales para combinar varias a la vez</li>
+        </ul>
+        <a href="#contacto" class="btn btn-line">Consultar disponibilidad</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COLLARES ============ -->
+  <section class="category category--reverse" id="collares">
+    <div class="category-inner">
+      <div class="category-visual">
+        <div class="frame frame--main">
+          <img src="assets/img/collar-1.jpg" alt="Collar dorado con dije de corazón">
+        </div>
+        <div class="frame frame--float">
+          <img src="assets/img/charm-1.jpg" alt="Dijes en forma de corazón alado">
+        </div>
+      </div>
+      <div class="category-copy">
+        <p class="section-kicker">02 collares</p>
+        <h3 class="category-title reveal">Un dije para cada historia</h3>
+        <p class="category-text">
+          Cadenas delicadas con dijes que caen justo sobre la clavícula.
+          Desde piezas minimalistas hasta dijes con significado, cada collar está
+          hecho para llevarse solo o en capas.
+        </p>
+        <ul class="category-points">
+          <li>Largo ajustable en la mayoría de los modelos</li>
+          <li>Dijes intercambiables disponibles</li>
+          <li>Empaque listo para regalo</li>
+        </ul>
+        <a href="#contacto" class="btn btn-line">Consultar disponibilidad</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ANILLOS ============ -->
+  <section class="category" id="anillos">
+    <div class="category-inner">
+      <div class="category-visual">
+        <div class="frame frame--main">
+          <img src="assets/img/anillo-2.jpg" alt="Anillos dorados en mano">
+        </div>
+        <div class="frame frame--float">
+          <img src="assets/img/anillo-1.jpg" alt="Anillos chunky apilados">
+        </div>
+      </div>
+      <div class="category-copy">
+        <p class="section-kicker">03 anillos</p>
+        <h3 class="category-title reveal">De los delicados a los statement</h3>
+        <p class="category-text">
+          Tenemos desde anillos finos para apilar hasta piezas chunky que se
+          roban la atención. Todos en tallas ajustables, para que encuentres tu
+          combinación perfecta.
+        </p>
+        <ul class="category-points">
+          <li>Tallas ajustables en la mayoría de los diseños</li>
+          <li>Diseños finos y chunky disponibles</li>
+          <li>Antialérgicos, aptos para uso prolongado</li>
+        </ul>
+        <a href="#contacto" class="btn btn-line">Consultar disponibilidad</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RELOJES ============ -->
+  <section class="category category--reverse" id="relojes">
+    <div class="category-inner">
+      <div class="category-visual">
+        <div class="frame frame--main">
+          <img src="assets/img/reloj-1.jpg" alt="Relojes dorados y plateados en exhibidor">
+        </div>
+        <div class="frame frame--float">
+          <img src="assets/img/pulsera-1.jpg" alt="Reloj con caja de regalo Aurea">
+        </div>
+      </div>
+      <div class="category-copy">
+        <p class="section-kicker">04 relojes</p>
+        <h3 class="category-title reveal">La hora, con actitud</h3>
+        <p class="category-text">
+          Relojes de carátula pequeña y correa metálica ajustable, perfectos para
+          combinar con tus pulseras favoritas. Un accesorio funcional que también
+          es joyería.
+        </p>
+        <ul class="category-points">
+          <li>Correa ajustable sin herramientas</li>
+          <li>Carátulas en tonos dorado, plata y bicolor</li>
+          <li>Vienen en caja lista para regalo</li>
+        </ul>
+        <a href="#contacto" class="btn btn-line">Consultar disponibilidad</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CHARMS ============ -->
+  <section class="category" id="charms">
+    <div class="category-inner">
+      <div class="category-visual">
+        <div class="frame frame--main">
+          <img src="assets/img/charm-2.jpg" alt="Pulsera con charms en muñeca">
+        </div>
+        <div class="frame frame--float">
+          <img src="assets/img/charm-1.jpg" alt="Charms en forma de corazón">
+        </div>
+      </div>
+      <div class="category-copy">
+        <p class="section-kicker">05 charms</p>
+        <h3 class="category-title reveal">Pequeños detalles, mucho significado</h3>
+        <p class="category-text">
+          Charms de bailarinas, estrellas, flores y corazones que se enganchan en
+          segundos. Arma tu propia pulsera de charms y ve sumando piezas con
+          el tiempo.
+        </p>
+        <ul class="category-points">
+          <li>Compatibles con nuestras pulseras de eslabones</li>
+          <li>Nuevos diseños cada temporada</li>
+          <li>Perfectos para regalar por partes</li>
+        </ul>
+        <a href="#contacto" class="btn btn-line">Consultar disponibilidad</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VALORES ============ -->
+  <section class="values" id="historia">
+    <p class="section-kicker">por qué Aurea</p>
+    <h2 class="section-title reveal">Joyería para usar, no para guardar</h2>
+
+    <div class="values-row">
+      <div class="value-card">
+        <svg viewBox="0 0 40 40" class="value-icon" aria-hidden="true">
+          <path d="M20 4 L23 16 L35 16 L25.5 23 L29 35 L20 27.5 L11 35 L14.5 23 L5 16 L17 16 Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+        </svg>
+        <h4>Brillo que dura</h4>
+        <p>Bañado en oro grueso, resistente al agua y al uso diario sin perder su color.</p>
+      </div>
+      <div class="value-card">
+        <svg viewBox="0 0 40 40" class="value-icon" aria-hidden="true">
+          <rect x="6" y="14" width="28" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M6 14 L20 24 L34 14" fill="none" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M14 14 C14 9 17 6 20 6 C23 6 26 9 26 14" fill="none" stroke="currentColor" stroke-width="1.4"/>
+        </svg>
+        <h4>Empaque de regalo</h4>
+        <p>Cada pieza llega lista para regalar, en caja y bolsa con la estética de la marca.</p>
+      </div>
+      <div class="value-card">
+        <svg viewBox="0 0 40 40" class="value-icon" aria-hidden="true">
+          <path d="M20 33 C11 26 5 20 5 13.5 C5 8.8 8.8 5.5 13 5.5 C16 5.5 18.5 7.3 20 10 C21.5 7.3 24 5.5 27 5.5 C31.2 5.5 35 8.8 35 13.5 C35 20 29 26 20 33 Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+        </svg>
+        <h4>Hecho para regalar y regalarte</h4>
+        <p>Piezas atemporales, fáciles de combinar, que se convierten en favoritas del día a día.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INSTAGRAM STRIP ============ -->
+  <section class="insta-strip">
+    <div class="insta-head">
+      <h2 class="section-title reveal">Síguenos en Instagram</h2>
+      <a href="#" class="insta-handle">@aurea.joyas</a>
+    </div>
+    <div class="insta-grid">
+      <a href="#" class="insta-tile"><img src="assets/img/pulsera-1.jpg" alt="Pulseras Aurea"></a>
+      <a href="#" class="insta-tile"><img src="assets/img/reloj-1.jpg" alt="Relojes Aurea"></a>
+      <a href="#" class="insta-tile"><img src="assets/img/anillo-2.jpg" alt="Anillos Aurea"></a>
+      <a href="#" class="insta-tile"><img src="assets/img/collar-1.jpg" alt="Collares Aurea"></a>
+      <a href="#" class="insta-tile"><img src="assets/img/charm-2.jpg" alt="Charms Aurea"></a>
+      <a href="#" class="insta-tile"><img src="assets/img/pulsera-3.jpg" alt="Pulseras de perlas Aurea"></a>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO / NEWSLETTER ============ -->
+  <section class="newsletter" id="contacto">
+    <div class="newsletter-inner">
+      <div class="newsletter-copy">
+        <p class="section-kicker">mantente cerca</p>
+        <h2 class="section-title reveal">Entérate antes que nadie</h2>
+        <p class="category-text">
+          Nuevas colecciones, piezas limitadas y promociones directo a tu correo.
+          Sin spam, solo lo esencial.
+        </p>
+      </div>
+      <form class="newsletter-form" id="newsletterForm">
+        <label for="emailInput" class="visually-hidden">Correo electrónico</label>
+        <input type="email" id="emailInput" placeholder="tu@correo.com" required>
+        <button type="submit" class="btn btn-gold">Suscribirme</button>
+      </form>
+      <p class="form-note" id="formNote" aria-live="polite"></p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="#inicio" class="brand">
+        <svg class="brand-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="24" cy="24" r="6.5" fill="currentColor"/>
+          <g stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+            <line x1="24" y1="4" x2="24" y2="12"/>
+            <line x1="24" y1="36" x2="24" y2="44"/>
+            <line x1="4" y1="24" x2="12" y2="24"/>
+            <line x1="36" y1="24" x2="44" y2="24"/>
+            <line x1="10" y1="10" x2="15.5" y2="15.5"/>
+            <line x1="32.5" y1="32.5" x2="38" y2="38"/>
+            <line x1="38" y1="10" x2="32.5" y2="15.5"/>
+            <line x1="15.5" y1="32.5" x2="10" y2="38"/>
+          </g>
+        </svg>
+        <span class="brand-name">Aurea</span>
+      </a>
+      <p>Joyería en oro para el día a día. Hecha para acompañar tu historia.</p>
+    </div>
+
+    <div class="footer-links">
+      <h5>Colecciones</h5>
+      <a href="#pulseras">Pulseras</a>
+      <a href="#collares">Collares</a>
+      <a href="#anillos">Anillos</a>
+      <a href="#relojes">Relojes</a>
+      <a href="#charms">Charms</a>
+    </div>
+
+    <div class="footer-links">
+      <h5>Síguenos</h5>
+      <a href="#" target="_blank" rel="noopener">Instagram</a>
+      <a href="#" target="_blank" rel="noopener">TikTok</a>
+      <a href="#" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Aurea Joyas. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
